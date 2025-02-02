@@ -1,7 +1,5 @@
-<?php namespace pkg_github__klude_org__example\v02;
+<?php namespace p__bravo;
 
-class plugin {
+class github__klude_org__example {
     public function prt(){ echo static::class.": branch/250202-01-dev\n"; }
 }
-
-
