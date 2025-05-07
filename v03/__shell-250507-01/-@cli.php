@@ -1,5 +1,6 @@
 <?php
 
+echo "[92mEPX WIN SHELL 250507-01[0m\n";
 
 if(!\is_file($f = \_\SITE_DIR.'/.local/.shell.bat')){
     $site_dir = \_\SITE_DIR;
@@ -24,7 +25,6 @@ if(!\is_file($f = \_\SITE_DIR.'/.local/.shell.bat')){
     )
     SET PATH={$shell_dir};%FX__ORIGINAL_PATH%
     if not defined FW__DEBUG SET "FW__DEBUG=0"
-    echo [92mEPX WIN SHELL 250306-03[0m
     cmd /k
     exit /b 0
     BAT);
